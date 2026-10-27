@@ -70,45 +70,6 @@ medical-insurance-price-predictor/
 
 Make sure the filenames in your repository match the filenames used in `app.py`. The notebook shown in this project exports `model_feature.pkl` (singular), while the Streamlit code may expect `model_features.pkl` (plural). Use one consistent filename in both files before running the app.
 
-## Getting Started
-
-### 1. Clone the repository
-
-Replace `YOUR-USERNAME` with your GitHub username:
-
-```bash
-git clone https://github.com/YOUR-USERNAME/medical-insurance-price-predictor.git
-cd medical-insurance-price-predictor
-```
-
-### 2. Create and activate a virtual environment (recommended)
-
-**Windows PowerShell:**
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-```
-
-If PowerShell blocks activation, you can use Command Prompt:
-
-```bat
-.venv\Scripts\activate.bat
-```
-
-### 3. Install dependencies
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-### 4. Run the Streamlit application
-
-```bash
-python -m streamlit run app.py
-```
-
-Streamlit will print a local URL (usually `http://localhost:8501`) to open in your browser.
 
 ## Data and Preprocessing
 
@@ -145,9 +106,7 @@ The Streamlit app should use compatible dependencies with the environment that c
 ## Future Improvements
 
 - Add cross-validation and a reproducible `random_state`
-- Tune model hyperparameters
 - Add feature-importance visualizations
-- Improve input validation and error handling
 - Deploy the Streamlit app
 - Add automated tests for preprocessing and prediction
 - Track model versions and dependency versions
