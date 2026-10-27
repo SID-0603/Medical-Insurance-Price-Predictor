@@ -4,6 +4,9 @@ A machine learning project that estimates medical insurance charges from persona
 
 > **Note:** This project is for educational and demonstration purposes only. Predictions are estimates, not medical, financial, or insurance advice.
 
+<img width="1843" height="892" alt="Screenshot 2026-10-27 125658" src="https://github.com/user-attachments/assets/5b073370-dd80-44fb-ada4-e923c081523d" />
+
+
 ## Project Overview
 
 The goal is to predict an individual's medical insurance charges using these input features:
@@ -63,7 +66,7 @@ medical-insurance-price-predictor/
 ├── medical_insurance.csv
 ├── insurance_model.pkl
 ├── model_features.pkl
-├── model_name.pkl                 # optional, if included in your project
+├── model_name.pkl               
 ├── requirements.txt
 └── README.md
 ```
