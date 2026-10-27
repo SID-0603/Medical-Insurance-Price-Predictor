@@ -68,9 +68,6 @@ medical-insurance-price-predictor/
 └── README.md
 ```
 
-Make sure the filenames in your repository match the filenames used in `app.py`. The notebook shown in this project exports `model_feature.pkl` (singular), while the Streamlit code may expect `model_features.pkl` (plural). Use one consistent filename in both files before running the app.
-
-
 ## Data and Preprocessing
 
 The notebook loads `medical_insurance.csv` and examines the dataset's shape, data types, descriptive statistics, missing values, duplicates, category distributions, and numerical distributions.
